@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+	.author-badge {
+		background-color: #ebf8ff;
+		color: #2c5282;
+		border-radius: 9999px;
+		transition: background-color 0.3s ease;
+		padding: 0.25rem 1rem;
+		display: inline-block;
+	}
+	
+	.author-badge:hover {
+		background-color: #bfdbfe;
+	}
+	
+	.author-link {
+		color: #2b6cb0;
+		text-decoration: underline;
+	}
+} */
+
+@layer components {
+
+	.insert-link {
+		@apply before:absolute before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:pointer-events-auto
+	}
+}
+
+@layer utilities {
+
+	.close {
+		display: none;
+	}
+
+	.open {
+		display: block;
+	}
+	
+}
