@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AAAI on BUPTMMLab</title>
-    <link>http://localhost:6990/tags/aaai/</link>
+    <link>https://BUPTMMLab.github.io/tags/aaai/</link>
     <description>Recent content in AAAI on BUPTMMLab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Feb 2024 10:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:6990/tags/aaai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://BUPTMMLab.github.io/tags/aaai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Region-Aware Exposure Consistency Network for Mixed Exposure Correction</title>
-      <link>http://localhost:6990/publications/2024/region-aware-exposure-consistency-network-for-mixed-exposure-correction/</link>
+      <link>https://BUPTMMLab.github.io/publications/2024/region-aware-exposure-consistency-network-for-mixed-exposure-correction/</link>
       <pubDate>Wed, 28 Feb 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:6990/publications/2024/region-aware-exposure-consistency-network-for-mixed-exposure-correction/</guid>
+      <guid>https://BUPTMMLab.github.io/publications/2024/region-aware-exposure-consistency-network-for-mixed-exposure-correction/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;Exposure correction aims to enhance images suffering from improper exposure to achieve satisfactory visual effects. Despite recent progress, existing methods generally mitigate either overexposure or underexposure in input images, and they still struggle to handle images with mixed exposure, i.e., one image incorporates both overexposed and underexposed regions. The mixed exposure distribution is non-uniform and leads to varying representation, which makes it challenging to address in a unified process. In this paper, we introduce an effective Region-aware Exposure Correction Network (RECNet) that can handle mixed exposure by adaptively learning and bridging different regional exposure representations. Specifically, to address the challenge posed by mixed exposure disparities, we develop a region-aware de-exposure module that effectively translates regional features of mixed exposure scenarios into an exposure-invariant feature space. Simultaneously, as de-exposure operation inevitably reduces discriminative information, we introduce a mixed-scale restoration unit that integrates exposure-invariant features and unprocessed features to recover local information. To further achieve a uniform exposure distribution in the global image, we propose an exposure contrastive regularization strategy under the constraints of intra-regional exposure consistency and inter-regional exposure continuity. Extensive experiments are conducted on various datasets, and the experimental results demonstrate the superiority and generalization of our proposed method. The code is released at: &lt;a href=&#34;https://github.com/kravrolens/RECNet&#34;&gt;https://github.com/kravrolens/RECNet&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
